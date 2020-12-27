@@ -1,0 +1,23 @@
+.card {
+    border-radius: 10px;
+    border-color: transparent;
+    background: rgba(255, 255, 255, 0.801);
+    overflow: hidden !important;
+    a:hover{
+      text-decoration: none;
+    }
+  .btn-warning, .btn-info{
+    border-radius: 3px !important;
+  }
+    .video {
+      line-height: 0;
+      object-fit: cover;
+      iframe {
+        @media screen and (max-width: 1180px) {
+          width: 330px;
+          height: 284px;
+        }
+      }
+    }
+  }
+  

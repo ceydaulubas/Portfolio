@@ -1,0 +1,39 @@
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3% 0;
+        @media screen 
+        and (max-width: 650px) {
+            flex-direction: column;
+        }
+
+        div {
+            flex: 0 0 22% !important;
+            background-color: rgba(255, 255, 255, 0.938);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.03);
+            
+            @media screen 
+            and (max-width: 650px) {
+            margin: 1.5% 0;
+        }
+            a {
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               text-align: center;
+               margin: 2% 0;
+               color: rgb(27,27,27);
+               text-decoration: none;
+               font-size:1.6em;
+               font-weight: 600; 
+            }
+        }
+        div:hover {
+            background-color: #13a3b8;
+        }
+        a:hover {
+            color: rgb(255, 255, 255);
+           }   
+}
