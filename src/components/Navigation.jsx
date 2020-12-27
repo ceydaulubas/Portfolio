@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/Navigation.scss";
-// import cv from "./data/cv.json";
+import cv from "./data/cv.json";
 import GithubLogo from "../images/githubwhite.png"
 import LinkedinLogo from "../images/linkedin.png"
 import MailLogo from "../images/mail.png"
@@ -27,13 +27,13 @@ const Navigation = () => {
             <NavLink to="/about">About</NavLink>
           </li>
           <li>
-            {/* <a
+            <a
               href={cv.link}
               target="_blank"
               rel="noopener noreferrer"
             >
               CV
-            </a> */}
+            </a>
           </li>
           <li>
             <a

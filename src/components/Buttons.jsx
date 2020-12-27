@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Buttons.scss";
-// import cv from "./data/cv.json";
+import cv from "./data/cv.json";
 
 const Buttons = () => {
   return (
@@ -13,13 +13,13 @@ const Buttons = () => {
         <Link to="/about">About</Link>
       </div>
       <div className="col-12 col-md-3">
-        {/* <a
+        <a
           href={cv.link}
           target="_blank"
           rel="noopener noreferrer"
         >
           CV
-        </a> */}
+        </a>
       </div>
       <div className="col-12 col-md-3">
         <a

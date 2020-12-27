@@ -2,7 +2,7 @@
 import React from "react";
 import Box2 from "../layout/Box2";
 import "../styles/About.scss";
-// import cv from "./data/cv.json";
+import cv from "./data/cv.json";
 
 const About = () => {
   return (
@@ -77,13 +77,13 @@ const About = () => {
             time I created couple of amazing applications, websites, I did more
             than 200 exercises. During this time I learn bunch of new 
             technologies 
-            {/* (<a
+            (<a
           href={cv.link}
           target="_blank"
           rel="noopener noreferrer"
         >
           more in my CV
-        </a>) like: */}
+        </a>) like:
           </p>
           <ul>
             <li>React</li>
