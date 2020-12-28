@@ -1,38 +1,16 @@
-.tech {
-    margin: 2% 4% 2% 4%;
-    // .m-bottom{
-    //     @media screen 
-    //     and (max-width: 767px) 
-    //     {
-    //         margin-bottom: 10%;
-    //     }
-    // }
-    .box {
-        h3 {
-            margin-top:30px;
-            margin-bottom: 10px;
-            color: rgb(3, 3, 3);
-        }
-        .col {
-            padding: 0;
-        }
-   
-    }
+.tecskill-part{
+    margin-left:60px;
+    margin-right: 60px;
 }
 
-.icons{
-    // display: table-cell;
-    // height: 200px;
-    // text-align: center;
-    // vertical-align: middle;
-    // background-color: rgba(187, 215, 238, 0.384);
-    // border-radius: 50%;
-    // width:275px;
-    // height: 275px;
-    // float:left;
+.front-part h3{
+    color:rgb(0, 0, 0);
+    margin-top: 30px;
+    padding-top:50px;
+}
 
-    img {
-        max-height: 60px;
+.front-part img{
+    max-height: 60px;
         margin-top: 2%;
         margin-left: 15px;
         -webkit-transform: translateZ(0);
@@ -51,5 +29,139 @@
         and (max-width: 100px) {
             max-height: 20px;
         }
-    }
+
+}
+
+.front-part{
+    text-align: center;
+    background-color:  rgba(255, 255, 255, 0.384);
+    border-radius: 50%;
+    width:275px;
+    height: 275px;
+    margin-left:50px;
+}
+
+.back-part h3{
+    color:rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.back-part img{
+    max-height: 60px;
+        margin-top: 2%;
+        margin-left: 15px;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+        @media screen 
+        and (max-width: 100px) {
+            max-height: 20px;
+        }
+}
+
+.back-part{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.384);
+    border-radius: 50%;
+    width:275px;
+    height: 275px;
+    margin-left:300px;
+
+    position: absolute;
+    top: 189px;
+    z-index: 1;
+}
+
+.data-part h3{
+    color:rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top:30px;
+}
+
+.data-part img{
+    max-height: 60px;
+        margin-top: 2%;
+        margin-left: 15px;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+        @media screen 
+        and (max-width: 100px) {
+            max-height: 20px;
+        }
+}
+
+.data-part{
+    text-align: center;
+    background-color:  rgba(255, 255, 255, 0.384);
+    border-radius: 50%;
+    width:275px;
+    height: 275px;
+    margin-left:550px;
+    position: absolute;
+    top: 189px;
+    // z-index: 1;
+}
+
+.other-part h3{
+    color:rgb(0, 0, 0);
+    padding-top: 50px;
+    // margin-bottom: 10px;
+}
+
+.other-part img{
+    max-height: 60px;
+        margin-top: 2%;
+        margin-left: 15px;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+        @media screen 
+        and (max-width: 100px) {
+            max-height: 20px;
+        }
+}
+
+.other-part{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.384);
+    border-radius: 50%;
+    width:275px;
+    height: 275px;
+    // float:right;
+    margin-left:800px;
+    // margin-right: 80px;
+    position: absolute;
+    top: 189px;
+    z-index: 2;
+    // object-position: 100px 100px;
 }

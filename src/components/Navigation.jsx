@@ -5,6 +5,7 @@ import cv from "./data/cv.json";
 import GithubLogo from "../images/githubwhite.png"
 import LinkedinLogo from "../images/linkedin.png"
 import MailLogo from "../images/mail.png"
+// import HomeLogo from "../images/navigation-logo/home.jpg"
 
 const Navigation = () => {
   return (
@@ -18,6 +19,7 @@ const Navigation = () => {
       <div id="sidebarMenu">
         <ul className="menu">
           <li>
+          {/* <img src={HomeLogo} alt="Shopping cart" style={{width: "20px"}}/> */}
             <NavLink to="/">Home</NavLink>
           </li>
           <li>
