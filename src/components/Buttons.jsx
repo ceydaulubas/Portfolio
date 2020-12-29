@@ -23,7 +23,7 @@ const Buttons = () => {
       </div>
       <div className="col-12 col-md-3">
         <a
-          href="mailto:mswidzinska87@gmail.com"
+          href="mailto:ceyda.ulubas@hotmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
