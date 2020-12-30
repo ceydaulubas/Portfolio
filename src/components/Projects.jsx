@@ -92,7 +92,7 @@ const projects = () => {
         <Card.Footer>
           <a
             className="btn-warning pt-1 pb-1 pl-2 pr-2 mr-4"
-            href="https://codebrokerad.github.io/halloweenSnake/game.html"
+            href="https://codebrokerad.github.io/halloweenSnake/"
             target="_blank"
             rel=" noopener noreferrer"
           >
@@ -100,7 +100,7 @@ const projects = () => {
             </a>
           <a
             className="btn-info pt-1 pb-1 pl-2 pr-2"
-            href="https://codebrokerad.github.io/halloweenSnake/"
+            href="https://github.com/codebrokerad/halloweenSnake"
             target="_blank"
             rel=" noopener noreferrer"
           >

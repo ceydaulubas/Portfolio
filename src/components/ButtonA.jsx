@@ -9,9 +9,11 @@ const ButtonA = () => {
       <div className="col-12 col-md-3">
         <Link to="/">Home</Link>
       </div>
+
       <div className="col-12 col-md-3">
-        <Link to="/project">Project</Link>
+        <Link to="/projects">Project</Link>
       </div>
+
       <div className="col-12 col-md-3">
         <a
           href={cv.link}
