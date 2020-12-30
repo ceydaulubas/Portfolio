@@ -35,7 +35,7 @@ const projects = () => {
             Website
             </a>
           <a
-            className="btn-info pt-1 pb-1 pl-2 pr-2"
+            className="btn-primary pt-1 pb-1 pl-2 pr-2"
             href="https://github.com/ceydaulubas/petAdopt"
             target="_blank"
             rel=" noopener noreferrer"
@@ -67,7 +67,7 @@ const projects = () => {
             Website
             </a>
           <a
-            className="btn-info pt-1 pb-1 pl-2 pr-2"
+            className="btn-primary pt-1 pb-1 pl-2 pr-2"
             href="https://github.com/eliachiarucci/codechat.git"
             target="_blank"
             rel=" noopener noreferrer"
@@ -99,7 +99,7 @@ const projects = () => {
             Website
             </a>
           <a
-            className="btn-info pt-1 pb-1 pl-2 pr-2"
+            className="btn-primary pt-1 pb-1 pl-2 pr-2"
             href="https://github.com/codebrokerad/halloweenSnake"
             target="_blank"
             rel=" noopener noreferrer"
