@@ -1,13 +1,13 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React from "react";
-import Box2 from "../layout/Box2";
+import BoxA from "../layout/BoxA";
 import "../styles/About.scss";
 // import cv from "./data/cv.json";
 import Me from "../images/AboutMe/me.jpg"
 
 const About = () => {
   return (
-    <Box2>
+    <BoxA>
       <div className="container">
         <div className="about">
         <img
@@ -32,16 +32,17 @@ const About = () => {
             for these I had to know how to code and I was lucky because my sister and brother-in-law are computer engineers.
             They taught me many things about coding. While I was self-studying, 
             I researched rigth web development Bootcamp at the same time because of the fact that I should learn in a  professional way. 
-            I started Ironhack Amsterdam Web Development Bootcamp in October 2020. During 9 super intense weeks, 
+            I started Ironhack Amsterdam Web Development Bootcamp in October 2020. During 9 super intensive teaching weeks
             I learned deeply information and created 3 different projects.
             I realized how happy while I am coding in this process and how I love coding. ❤️
           </p>
+          
           <p>
-
+          ✨
           </p>
         </div>
       </div>
-    </Box2>
+    </BoxA>
   );
 };
 

@@ -7,8 +7,11 @@ import PetAdopt from "../images/WebProjectScreen/petadopt1.png"
 import CodeChat from "../images/WebProjectScreen/codeChat-screenhot.png"
 import HalloweenSnake from "../images/WebProjectScreen/HalloweenSnake-screenshot.png"
 
+import BoxP from "../layout/BoxP";
+
 const projects = () => {
   return (
+    <BoxP>
     <div className="container">
       <Card className="project1">
         <Card.Img variant="top" src={PetAdopt} style={{ width: '100%', height: '500px' }} />
@@ -106,6 +109,7 @@ const projects = () => {
         </Card.Footer>
       </Card>
     </div>
+    </BoxP>
   )
 };
 export default projects;

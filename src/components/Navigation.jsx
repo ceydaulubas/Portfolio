@@ -18,23 +18,21 @@ const Navigation = () => {
       </label>
       <div id="sidebarMenu">
         <ul className="menu">
-          <li>
-          {/* <img src={HomeLogo} alt="Shopping cart" style={{width: "20px"}}/> */}
+          {/* <li>
             <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/projects">Projects</NavLink>
+            <NavLink to="/about">About</NavLink>
           </li>
           <li>
-            <NavLink to="/about">About</NavLink>
+            <NavLink to="/projects">Projects</NavLink>
           </li>
           <li>
             <a
               href={cv.link}
               target="_blank"
               rel="noopener noreferrer"
-            >
-              CV
+            >CV
             </a>
           </li>
           <li>
@@ -42,10 +40,9 @@ const Navigation = () => {
               href="mailto:ceyda.ulubas@hotmail.com"
               target="_blank"
               rel="noopener noreferrer"
-            >
-              Contact
+            >Contact
             </a>
-          </li>
+          </li> */}
           <li className="noBorderBottom">
             <a
               className="hvr-grow"
