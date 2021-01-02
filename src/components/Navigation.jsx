@@ -1,11 +1,10 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import "../styles/Navigation.scss";
-import cv from "./data/cv.json";
 import GithubLogo from "../images/githubwhite.png"
 import LinkedinLogo from "../images/linkedin.png"
 import MailLogo from "../images/mail.png"
-// import HomeLogo from "../images/navigation-logo/home.jpg"
+import MediumLogo from "../images/medium-logo.png"
 
 const Navigation = () => {
   return (
@@ -18,31 +17,6 @@ const Navigation = () => {
       </label>
       <div id="sidebarMenu">
         <ul className="menu">
-          {/* <li>
-            <NavLink to="/">Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="/about">About</NavLink>
-          </li>
-          <li>
-            <NavLink to="/projects">Projects</NavLink>
-          </li>
-          <li>
-            <a
-              href={cv.link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >CV
-            </a>
-          </li>
-          <li>
-            <a
-              href="mailto:ceyda.ulubas@hotmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >Contact
-            </a>
-          </li> */}
           <li className="noBorderBottom">
             <a
               className="hvr-grow"
@@ -67,7 +41,6 @@ const Navigation = () => {
                 alt="Ceyda Ulubas-linkedin"
               />
             </a>
-
             <a
               className="hvr-grow"
               href="mailto:ceyda.ulubas@hotmail.com"
@@ -79,6 +52,18 @@ const Navigation = () => {
                 alt="CeydaWeb-email"
               />
             </a>
+            <a
+              className="hvr-grow"
+              href="https://ceydaulubas.medium.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={MediumLogo}
+                alt="Ceyda Ulubas-medium"
+              />
+            </a>
+     
           </li>
         </ul>
       </div>

@@ -1,17 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/ButtonA.scss";
-import cv from "./data/cv.json";
+import "../../styles/Buttons.scss";
+import cv from "../data/cv.json";
 
-const ButtonA = () => {
+const ButtonP = () => {
   return (
     <div className="buttons row">
-      <div className="col-12 col-md-3">
+
+    <div className="col-12 col-md-3">
         <Link to="/">Home</Link>
       </div>
 
       <div className="col-12 col-md-3">
-        <Link to="/projects">Project</Link>
+        <Link to="/">Skills</Link>
+      </div>
+
+      <div className="col-12 col-md-3">
+        <Link to="/about">About</Link>
       </div>
 
       <div className="col-12 col-md-3">
@@ -23,17 +28,8 @@ const ButtonA = () => {
           CV
         </a>
       </div>
-      <div className="col-12 col-md-3">
-        <a
-          href="mailto:ceyda.ulubas@hotmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Contact
-        </a>
-      </div>
     </div>
   );
 };
 
-export default ButtonA;
+export default ButtonP;

@@ -2,7 +2,7 @@
     border-radius: 10px;
     border-width: 20px;
     border-color: transparent;
-    background: rgba(255, 255, 255, 0.541);
+    background: rgba(255, 255, 255, 0.829);
     width: 100%;
     margin-top: 2%;
     margin-bottom:2%;
@@ -14,4 +14,23 @@
     border-radius: 3px !important;
   }
   }
-  
+
+
+.project1{
+  float:left;
+  width: 25%;
+}
+
+.project2{
+  display: inline-block;
+    margin-left:5%;
+    margin-right:2.5%;
+    width: 25%;
+}
+
+.project3{
+ float:right;
+ width: 25%;
+
+}
+

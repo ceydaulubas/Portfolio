@@ -1,23 +1,28 @@
 import React from "react";
-import "../styles/Home.scss";
-import Techstack from "./Techstack";
-import Box1 from "../layout/Box1";
+import "../styles/Skills.scss";
+import BoxH from "../layout/BoxH";
+import Me2 from "../images/Home/pinkme.jpg"
 
-const Home = () => {
+const Skills = () => {
   return (
-    <Box1>
+    <BoxH>
       <div className="col">
-        <div className="name mt-5">
-          <h1>Ceyda Ulubas</h1>
-          <h5> Full-stack developer who shifted her career to coding <br>
-          </br> after more than 2 years of experience in brand management.</h5>
-        </div>
-        <div className="mb-5">
-          <Techstack />
+        <div className="name mt-5" style={{ color:'white'}} >
+        <img
+              // className="col-md-6"
+              src={Me2}
+              alt="Ceyda Ulubas"
+              style={{ width: '20%' , height: '5%' , borderRadius:"25px"}} 
+            />
+          <h1 style={{  marginTop:"1%" , color:'white'}}>Welcome to my portfolio...</h1>
+          <h5 style={{  marginTop:"1%"}}> My name is Ceyda Ulubas.</h5>
+          <h5 > I am full-stack web developer who changed her career <br>
+          </br>after more than 2 years of experience in brand management.</h5>
+          <h5 style={{marginBottom:"5%"}} > Let's check out my skills, projects, and details of myself part. </h5>
         </div>
       </div>
-    </Box1>
+    </BoxH>
   );
 };
 
-export default Home;
+export default Skills;

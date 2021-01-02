@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../styles/Projects.scss";
 // import YouTubeVideo from "../thirdParty/YouTube";
 import Card from "react-bootstrap/Card";
@@ -7,21 +7,21 @@ import PetAdopt from "../images/WebProjectScreen/petadopt1.png"
 import CodeChat from "../images/WebProjectScreen/codeChat-screenhot.png"
 import HalloweenSnake from "../images/WebProjectScreen/HalloweenSnake-screenshot.png"
 
-import BoxP from "../layout/BoxP";
+import BoxH from "../layout/BoxH";
 
 const projects = () => {
   return (
-    <BoxP>
-    <div className="container">
-      <Card className="project1">
-        <Card.Img variant="top" src={PetAdopt} style={{ width: '100%', height: '500px' }} />
+    <BoxH>
+    <div className="containerP">
+      <Card className="project1" style={{ width: '30%' , height: '25%' , borderRadius:"25px"}}>
+        <Card.Img variant="top" src={PetAdopt} style={{ width: '100%' , height: '100%' , borderRadius:"25px"}}  />
         <Card.Body>
-          <Card.Title>PetAdopt</Card.Title>
-          <Card.Text>
+          <Card.Title >PetAdopt</Card.Title>
+          <Card.Text >
             Final Project in Ironhack.
             This website provides easy access and adoption to cats and dogs waiting for adoption.
         </Card.Text>
-          <Card.Text>
+          <Card.Text style={{ marginBottom:'1%' }}>
             <b> Stack: </b>MongoDB, Mongoose, Express.js, React Js, Node.js
         </Card.Text>
         </Card.Body>
@@ -45,8 +45,8 @@ const projects = () => {
         </Card.Footer>
       </Card>
 
-      <Card className="project2">
-        <Card.Img variant="top" src={CodeChat} style={{ width: '100%', height: '500px' }} />
+      <Card className="project2" style={{ width: '30%' , height: '25%' , borderRadius:"25px"}}>
+        <Card.Img variant="top" src={CodeChat} />
         <Card.Body>
           <Card.Title>CodeChat</Card.Title>
           <Card.Text>
@@ -77,15 +77,15 @@ const projects = () => {
         </Card.Footer>
       </Card>
 
-      <Card className="project3">
-        <Card.Img variant="top" src={HalloweenSnake} style={{ width: '100%', height: '500px' }} />
+      <Card className="project3" style={{ width: '30%' , height: '25%' , borderRadius:"25px"}} >
+        <Card.Img variant="top" src={HalloweenSnake}  />
         <Card.Body>
           <Card.Title>HalloweenSnake</Card.Title>
           <Card.Text>
             First group project in Ironhack.
             Halloween Snake is a modified version of the Nostalgic snake game with the Halloween theme.
         </Card.Text>
-          <Card.Text>
+          <Card.Text style={{ marginBottom:'6%' }}>
             <b> Stack: </b> Javascript, HTML, CSS
         </Card.Text>
         </Card.Body>
@@ -109,7 +109,7 @@ const projects = () => {
         </Card.Footer>
       </Card>
     </div>
-    </BoxP>
+    </BoxH>
   )
 };
 export default projects;
