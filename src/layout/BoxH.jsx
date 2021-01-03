@@ -5,9 +5,9 @@ import ButtonH from "../components/Buttons/ButtonH";
 const BoxH = (props) => {
   return (
     <div>
-    <ButtonH />
+      <ButtonH />
       <div className="boxh">{props.children}</div>
-      
+
     </div>
   );
 };

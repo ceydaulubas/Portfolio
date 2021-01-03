@@ -4,10 +4,10 @@ import ButtonS from "../components/Buttons/ButtonS";
 
 const BoxS = (props) => {
   return (
-    <div> 
-    <ButtonS />
+    <div>
+      <ButtonS />
       <div className="boxs">{props.children}</div>
-     
+
     </div>
   );
 };
