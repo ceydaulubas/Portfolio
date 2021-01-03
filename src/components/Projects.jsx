@@ -7,11 +7,11 @@ import PetAdopt from "../images/WebProjectScreen/petadopt1.png"
 import CodeChat from "../images/WebProjectScreen/codeChat-screenhot.png"
 import HalloweenSnake from "../images/WebProjectScreen/HalloweenSnake-screenshot.png"
 
-import BoxH from "../layout/BoxH";
+import BoxP from "../layout/BoxP";
 
 const projects = () => {
   return (
-    <BoxH>
+    <BoxP>
     <div className="containerP">
       <Card className="project1" style={{ width: '30%' , height: '25%' , borderRadius:"25px"}}>
         <Card.Img variant="top" src={PetAdopt} style={{ width: '100%' , height: '100%' , borderRadius:"25px"}}  />
@@ -85,7 +85,7 @@ const projects = () => {
             First group project in Ironhack.
             Halloween Snake is a modified version of the Nostalgic snake game with the Halloween theme.
         </Card.Text>
-          <Card.Text style={{ marginBottom:'6%' }}>
+          <Card.Text >
             <b> Stack: </b> Javascript, HTML, CSS
         </Card.Text>
         </Card.Body>
@@ -109,7 +109,7 @@ const projects = () => {
         </Card.Footer>
       </Card>
     </div>
-    </BoxH>
+    </BoxP>
   )
 };
 export default projects;

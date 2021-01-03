@@ -8,7 +8,7 @@ const Skills = () => {
     <Box1>
       <div className="col">
         <div className="name mt-5">
-          <h1 style={{ color:'white'}}>My Skills</h1>
+          <h1 style={{ color:' rgba(255, 255, 255, 0.384)'}}>My Skills</h1>
           {/* <h5> Full-stack developer who shifted her career to coding <br>
           </br> after more than 2 years of experience in brand management.</h5> */}
         </div>

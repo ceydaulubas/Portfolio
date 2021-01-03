@@ -1,7 +1,7 @@
 .tecskill-part{
     margin-left:60px;
     margin-right: 60px;
-    // align-items: center;
+    // margin-bottom: 6%;
 }
 
 .front-part h3{
@@ -34,11 +34,6 @@
 }
 
 .front-part{
-    // @media screen and (min-width: 300px) and (max-width: 1000px){
-    //     // margin: 5% 1%;
-    //     flex-direction: column;
-    // }
-
     @media screen 
     and (max-width: 650px) {
     margin: 1.5% 0;
@@ -48,7 +43,7 @@
     border-radius: 50%;
     width:275px;
     height: 275px;
-    margin-left:120px;
+    margin-left:55px;
 }
 
 .back-part h3{
@@ -80,11 +75,6 @@
 }
 
 .back-part{
-    // @media screen and (min-width: 300px) and (max-width: 1000px){
-    //     // margin: 5% 1%;
-    //     flex-direction: column;
-    // }
-
     @media screen 
     and (max-width: 650px) {
     margin: 1.5% 0;
@@ -95,7 +85,7 @@
     border-radius: 50%;
     width:275px;
     height: 275px;
-    margin-left:370px;
+    margin-left:305px;
 
     position: absolute;
     top: 134px;
@@ -132,11 +122,6 @@
 }
 
 .data-part{
-    // @media screen and (min-width: 300px) and (max-width: 1000px){
-    //     // margin: 5% 1%;
-    //     flex-direction: column;
-    // }
-
     @media screen 
     and (max-width: 650px) {
     margin: 1.5% 0;
@@ -147,16 +132,14 @@
     border-radius: 50%;
     width:275px;
     height: 275px;
-    margin-left:620px;
+    margin-left:555px;
     position: absolute;
     top: 134px;
-    // z-index: 1;
 }
 
 .other-part h3{
     color:rgb(0, 0, 0);
     padding-top: 50px;
-    // margin-bottom: 10px;
 }
 
 .other-part img{
@@ -182,11 +165,6 @@
 }
 
 .other-part{
-    // @media screen and (min-width: 300px) and (max-width: 1000px){
-    //     // margin: 5% 1%;
-    //     flex-direction: column;
-    // }
-
     @media screen 
     and (max-width: 650px) {
     margin: 1.5% 0;
@@ -197,9 +175,7 @@
     border-radius: 50%;
     width:275px;
     height: 275px;
-    // float:right;
-    margin-left:870px;
-    // margin-right: 80px;
+    margin-left:805px;
     position: absolute;
     top: 134px;
     z-index: 2;
