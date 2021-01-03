@@ -81,7 +81,7 @@ const projects = () => {
         <Card.Img variant="top" src={HalloweenSnake}  />
         <Card.Body>
           <Card.Title>HalloweenSnake</Card.Title>
-          <Card.Text>
+          <Card.Text  >
             First group project in Ironhack.
             Halloween Snake is a modified version of the Nostalgic snake game with the Halloween theme.
         </Card.Text>
