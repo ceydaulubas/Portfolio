@@ -12,7 +12,7 @@ const Skills = () => {
               // className="col-md-6"
               src={Me2}
               alt="Ceyda Ulubas"
-              style={{ width: '20%' , height: '5%' , borderRadius:"25px"}} 
+              style={{ width: '16%' , height: '4%' , borderRadius:"25px"}} 
             />
           <h1 style={{  marginTop:"1%" , color:'white'}}>Welcome to my portfolio...</h1>
           <h5 style={{  marginTop:"1%"}}> My name is Ceyda Ulubas.</h5>

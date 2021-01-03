@@ -5,8 +5,9 @@ import ButtonP from "../components/Buttons/ButtonP";
 const BoxP = (props) => {
   return (
     <div>
+    <ButtonP />
       <div className="boxp">{props.children}</div>
-      <ButtonP />
+      
     </div>
   );
 };

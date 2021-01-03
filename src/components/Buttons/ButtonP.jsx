@@ -12,7 +12,7 @@ const ButtonP = () => {
       </div>
 
       <div className="col-12 col-md-3">
-        <Link to="/">Skills</Link>
+        <Link to="/skills">Skills</Link>
       </div>
 
       <div className="col-12 col-md-3">

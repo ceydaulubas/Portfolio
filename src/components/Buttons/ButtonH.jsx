@@ -28,8 +28,6 @@ const ButtonH = () => {
           CV
         </a>
       </div>
-      <div className="col-12 col-md-3">
-      </div>
     </div>
   );
 };
