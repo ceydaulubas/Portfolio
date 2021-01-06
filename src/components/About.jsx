@@ -11,7 +11,6 @@ const About = () => {
       <div className="container">
         <div className="about" >
           <img
-            // className="col-md-6"
             src={Me}
             alt="Ceyda Ulubas"
             style={{ width: '30%', marginRigt: "5%", marginTop: "5%", float: "left", textAlign: "right" }}
@@ -34,7 +33,6 @@ const About = () => {
           </p>
 
           <img
-            // className="col-md-6"
             src={Views}
             alt="Views"
             style={{ width: '30%', marginRight: "5%", marginTop: "5%", marginBottom: "5%", float: "right", textAlign: "left" }}
