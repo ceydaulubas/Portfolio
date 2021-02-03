@@ -12,6 +12,7 @@ import Postman from ".././images/skill-logo/Other Skill/postman2-logo.png"
 import Jasmine from ".././images/skill-logo/Other Skill/jasmine-2-logo.png"
 import Heroku from ".././images/skill-logo/Other Skill/heroku-logo.png"
 import Github from ".././images/skill-logo/Other Skill/github-logo.png"
+import Jquery from ".././images/skill-logo/frontend/jQuery.png"
 
 
 import '../styles/Techstack.scss';
@@ -45,6 +46,10 @@ const Techstack = () => {
 						<img
 							src={BOOTSTRAP}
 							alt="Bootstrap"
+						/>
+						<img
+							src={Jquery}
+							alt="Jquery"
 						/>
 			</div>
 
