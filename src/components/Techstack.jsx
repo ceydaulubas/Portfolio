@@ -22,7 +22,7 @@ const Techstack = () => {
 	return (
 		<div className="tecskill-part">
 			<div className="front-part">
-					<h3 className="Fronth3">Front-End</h3>
+					<h3>Front-End</h3>
 						<img
 							src={HTML}
 							alt="HTML5"
@@ -54,7 +54,8 @@ const Techstack = () => {
 			</div>
 
 			<div className="back-part">
-					<h3 className="Backh3">Back-End</h3>
+					<h3>
+					<br/>Back-End</h3>
 						<img
 							src={NodeJS}
 							alt="NodeJS"
@@ -66,7 +67,7 @@ const Techstack = () => {
 					</div>
 
 				<div className="data-part">			
-					<h3 className="Datah3">Database</h3>
+					<h3>Database</h3>
 						<img
 							src={MongoDB}
 							alt="MongoDB"
