@@ -16,22 +16,24 @@
   }
 
 
-.project1{
+.projectL{
   float:left;
-  width: 25%;
+  height: 520px;
+  width: 40%;
+  @media screen 
+  and (max-width: 650px) {
+    width: 100%;
+}
 }
 
-.project2{
-  display: inline-block;
-    margin-left:5%;
-    margin-right:2.5%;
-    width: 25%;
+.projectR{
+  float:right;
+  height: 520px;
+  width: 40%;
+  @media screen 
+  and (max-width: 650px) {
+    width: 100%;
 }
-
-.project3{
- float:right;
- width: 25%;
-
 }
 
 containerP{
