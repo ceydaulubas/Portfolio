@@ -182,18 +182,18 @@ const projects = () => {
             This app shows all gifs when you write a word that you want to see as a gif.
         </Card.Text>
             <Card.Text >
-              <b> Stack: </b> React Js, Axios
+              <b> Stack: </b> React Js, Axios, CSS
         </Card.Text>
           </Card.Body>
           <Card.Footer>
-          {/* <a
+          <a
               className="btn-warning pt-1 pb-1 pl-2 pr-2 mr-4"
               href="https://giphy-api-react.netlify.app/"
               target="_blank"
               rel=" noopener noreferrer"
             >
               Website
-            </a> */}
+            </a>
             <a
               className="btn-primary pt-1 pb-1 pl-2 pr-2"
               href="https://github.com/ceydaulubas/giphy-api-react"
