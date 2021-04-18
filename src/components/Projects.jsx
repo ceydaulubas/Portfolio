@@ -23,7 +23,6 @@ const projects = () => {
           <Card.Body>
             <Card.Title >PetAdopt</Card.Title>
             <Card.Text >
-              Final Project in Ironhack.
               This website provides easy access and adoption to cats and dogs waiting for adoption.
         </Card.Text>
             <Card.Text style={{ marginBottom: '1%' }}>
